@@ -1,0 +1,20 @@
+Starting evaluation of experiment LOF-test1-sine_with_amplitude-da57e09e2b4ad4d568a26dd67f170158-1
+=============================================
+
+Performing execution for UNSUPERVISED algorithm LOF
+Running container 'ghcr.io/timeeval/lof:0.3.0' with env='{'LOCAL_UID': '501', 'LOCAL_GID': '501'}' in ExecutionType.EXECUTE mode.
+Restricting container to 1.0 CPUs and 15.000 GB RAM
+
+#### Docker container logs ####
+useradd warning: user's uid 501 outside of the UID_MIN 1000 and UID_MAX 60000 range.
+Config: AlgorithmArgs(customParameters=CustomParameters(n_neighbors=50, leaf_size=20, distance_metric_order=2, n_jobs=1, algorithm='auto', distance_metric='minkowski', random_state=42), dataInput='/data/test1.csv', dataOutput='/results/docker-algorithm-scores.csv', executionType='execute', modelInput='/results/model.pkl', modelOutput='/results/model.pkl')
+
+###############################
+
+Scoring algorithm LOF with ROC_AUC,RANGE_ROC_AUC,RANGE_PR_VOLUME metrics
+Calculating ROC_AUC
+  = 0.5331250000000001
+Calculating RANGE_ROC_AUC
+  = 0.929756154834425
+Calculating RANGE_PR_VOLUME
+  = 0.6114528103649337

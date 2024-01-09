@@ -1,0 +1,25 @@
+Starting evaluation of experiment k-Means-test1-sine_with_amplitude-cfa90897b46b014c796de1ba98df27f8-1
+=============================================
+
+Performing execution for UNSUPERVISED algorithm k-Means
+Running container 'ghcr.io/timeeval/kmeans:0.3.0' with env='{'LOCAL_UID': '501', 'LOCAL_GID': '501'}' in ExecutionType.EXECUTE mode.
+Restricting container to 1.0 CPUs and 15.000 GB RAM
+
+#### Docker container logs ####
+useradd warning: user's uid 501 outside of the UID_MIN 1000 and UID_MAX 60000 range.
+Required padding_length=0
+Reversing window-based scores to point-based scores:
+Before reverse-windowing: scores.shape=(91,)
+After reverse-windowing: scores.shape=(100,)
+/usr/local/lib/python3.8/site-packages/sklearn/cluster/_kmeans.py:792: FutureWarning: 'n_jobs' was deprecated in version 0.23 and will be removed in 1.0 (renaming of 0.25).
+  warnings.warn("'n_jobs' was deprecated in version 0.23 and will be"
+
+###############################
+
+Scoring algorithm k-Means with ROC_AUC,RANGE_ROC_AUC,RANGE_PR_VOLUME metrics
+Calculating ROC_AUC
+  = 0.090625
+Calculating RANGE_ROC_AUC
+  = 0.8786484636493584
+Calculating RANGE_PR_VOLUME
+  = 0.39486351713753526

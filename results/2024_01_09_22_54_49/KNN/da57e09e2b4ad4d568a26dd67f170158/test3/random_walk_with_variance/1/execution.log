@@ -1,0 +1,20 @@
+Starting evaluation of experiment KNN-test3-random_walk_with_variance-da57e09e2b4ad4d568a26dd67f170158-1
+=============================================
+
+Performing execution for UNSUPERVISED algorithm KNN
+Running container 'ghcr.io/timeeval/knn:0.3.0' with env='{'LOCAL_UID': '501', 'LOCAL_GID': '501'}' in ExecutionType.EXECUTE mode.
+Restricting container to 1.0 CPUs and 15.000 GB RAM
+
+#### Docker container logs ####
+useradd warning: user's uid 501 outside of the UID_MIN 1000 and UID_MAX 60000 range.
+Config: AlgorithmArgs(customParameters=CustomParameters(n_neighbors=50, leaf_size=20, method='largest', radius=1.0, distance_metric_order=2, n_jobs=1, algorithm='auto', distance_metric='minkowski', random_state=42), dataInput='/data/test3.csv', dataOutput='/results/docker-algorithm-scores.csv', executionType='execute', modelInput='/results/model.pkl', modelOutput='/results/model.pkl')
+
+###############################
+
+Scoring algorithm KNN with ROC_AUC,RANGE_ROC_AUC,RANGE_PR_VOLUME metrics
+Calculating ROC_AUC
+  = 0.02020202020202022
+Calculating RANGE_ROC_AUC
+  = 0.7189755834580516
+Calculating RANGE_PR_VOLUME
+  = 0.19447859432561793
