@@ -1,0 +1,43 @@
+timeseries:
+  - name: sine_with_amplitude
+    length: 100
+    base-oscillations:
+      - kind: sine
+    anomalies:
+      - length: 10
+        kinds:
+          - kind: amplitude
+            amplitude_factor: 1.5
+
+  - name: polynomial_with_extremum
+    length: 100
+    base-oscillations:
+      - kind: polynomial
+        polynomial: [1, -2, 1]
+    anomalies:
+      - length: 10
+        kinds:
+          - kind: extremum
+            min: true
+            local: true
+            context_window: 5
+
+  - name: random_walk_with_variance
+    length: 100
+    base-oscillations:
+      - kind: random-walk
+    anomalies:
+      - length: 15
+        kinds:
+          - kind: variance
+            variance: 1.0
+
+  - name: ecg_with_frequency
+    length: 100
+    base-oscillations:
+      - kind: ecg
+    anomalies:
+      - length: 20
+        kinds:
+          - kind: frequency
+            frequency_factor: 2.0
