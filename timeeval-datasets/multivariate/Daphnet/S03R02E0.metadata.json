@@ -1,0 +1,110 @@
+[
+  {
+    "anomaly_length": {
+      "max": 664,
+      "median": 418,
+      "min": 84
+    },
+    "contamination": 0.13858173076923078,
+    "dataset_id": [
+      "Daphnet",
+      "S03R02E0"
+    ],
+    "dimensions": 9,
+    "is_train": false,
+    "length": 16640,
+    "means": {
+      "ankle_horiz_fwd": -187.06604567307693,
+      "ankle_horiz_lateral": 392.3037860576923,
+      "ankle_vert": 934.1364783653846,
+      "leg_horiz_fwd": -635.3289663461538,
+      "leg_horiz_lateral": 108.78209134615385,
+      "leg_vert": 543.5471754807693,
+      "trunk_horiz_fwd": 286.06298076923076,
+      "trunk_horiz_lateral": -30.697295673076923,
+      "trunk_vert": 915.7249399038461
+    },
+    "num_anomalies": 6,
+    "periods": {
+      "ankle_horiz_fwd": 13,
+      "ankle_horiz_lateral": 6,
+      "ankle_vert": 13,
+      "leg_horiz_fwd": 19,
+      "leg_horiz_lateral": 13,
+      "leg_vert": 18,
+      "trunk_horiz_fwd": 14,
+      "trunk_horiz_lateral": 40,
+      "trunk_vert": 19
+    },
+    "stationarities": {
+      "ankle_horiz_fwd": "stationary",
+      "ankle_horiz_lateral": "stationary",
+      "ankle_vert": "stationary",
+      "leg_horiz_fwd": "stationary",
+      "leg_horiz_lateral": "stationary",
+      "leg_vert": "trend_stationary",
+      "trunk_horiz_fwd": "trend_stationary",
+      "trunk_horiz_lateral": "stationary",
+      "trunk_vert": "trend_stationary"
+    },
+    "stddevs": {
+      "ankle_horiz_fwd": 409.4992175036654,
+      "ankle_horiz_lateral": 365.8333515001943,
+      "ankle_vert": 294.42548679272204,
+      "leg_horiz_fwd": 505.7417794439193,
+      "leg_horiz_lateral": 226.61891565458777,
+      "leg_vert": 409.33980515500184,
+      "trunk_horiz_fwd": 333.586447241625,
+      "trunk_horiz_lateral": 106.87380405547084,
+      "trunk_vert": 148.2089371759816
+    },
+    "trends": {
+      "ankle_horiz_fwd": [],
+      "ankle_horiz_lateral": [],
+      "ankle_vert": [],
+      "leg_horiz_fwd": [],
+      "leg_horiz_lateral": [],
+      "leg_vert": [
+        {
+          "coef": [
+            -0.062424485692501176
+          ],
+          "confidence_r2": 0.5366529059381434,
+          "tpe": "linear"
+        },
+        {
+          "coef": [
+            -3.729880820156929e-06
+          ],
+          "confidence_r2": 0.5657960083026653,
+          "tpe": "quadratic"
+        },
+        {
+          "coef": [
+            -2.2234039861305916e-10
+          ],
+          "confidence_r2": 0.5032202604659864,
+          "tpe": "kubic"
+        }
+      ],
+      "trunk_horiz_fwd": [
+        {
+          "coef": [
+            0.05099362335598656
+          ],
+          "confidence_r2": 0.5392205613302361,
+          "tpe": "linear"
+        },
+        {
+          "coef": [
+            2.938956086032525e-06
+          ],
+          "confidence_r2": 0.5289411115639948,
+          "tpe": "quadratic"
+        }
+      ],
+      "trunk_horiz_lateral": [],
+      "trunk_vert": []
+    }
+  }
+]

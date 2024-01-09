@@ -1,0 +1,53 @@
+[
+  {
+    "anomaly_length": {
+      "max": 3,
+      "median": 1,
+      "min": 1
+    },
+    "contamination": 0.0012654551489502946,
+    "dataset_id": [
+      "Metro",
+      "metro-traffic-volume"
+    ],
+    "dimensions": 5,
+    "is_train": false,
+    "length": 48204,
+    "means": {
+      "clouds_all": 49.36223135009543,
+      "rain_1h": 0.3342639614969712,
+      "snow_1h": 0.00022238818355323212,
+      "temp": 281.2058703012198,
+      "traffic_volume": 3259.8183553232097
+    },
+    "num_anomalies": 53,
+    "periods": {
+      "clouds_all": 5,
+      "rain_1h": 1,
+      "snow_1h": 1,
+      "temp": 25,
+      "traffic_volume": 25
+    },
+    "stationarities": {
+      "clouds_all": "stationary",
+      "rain_1h": "difference_stationary",
+      "snow_1h": "difference_stationary",
+      "temp": "stationary",
+      "traffic_volume": "difference_stationary"
+    },
+    "stddevs": {
+      "clouds_all": 39.01575046141364,
+      "rain_1h": 44.789133036939184,
+      "snow_1h": 0.00816761120536159,
+      "temp": 13.338231912676328,
+      "traffic_volume": 1986.8606704463589
+    },
+    "trends": {
+      "clouds_all": [],
+      "rain_1h": [],
+      "snow_1h": [],
+      "temp": [],
+      "traffic_volume": []
+    }
+  }
+]

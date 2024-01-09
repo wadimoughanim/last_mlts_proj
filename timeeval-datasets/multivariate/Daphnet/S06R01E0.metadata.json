@@ -1,0 +1,73 @@
+[
+  {
+    "anomaly_length": {
+      "max": 2594,
+      "median": 1278,
+      "min": 121
+    },
+    "contamination": 0.157265625,
+    "dataset_id": [
+      "Daphnet",
+      "S06R01E0"
+    ],
+    "dimensions": 9,
+    "is_train": false,
+    "length": 51200,
+    "means": {
+      "ankle_horiz_fwd": 137.6624609375,
+      "ankle_horiz_lateral": 279.35810546875,
+      "ankle_vert": 1018.765703125,
+      "leg_horiz_fwd": -291.72208984375,
+      "leg_horiz_lateral": 176.56416015625,
+      "leg_vert": 871.7982421875,
+      "trunk_horiz_fwd": 223.6204296875,
+      "trunk_horiz_lateral": -116.84908203125,
+      "trunk_vert": 967.596875
+    },
+    "num_anomalies": 7,
+    "periods": {
+      "ankle_horiz_fwd": 62,
+      "ankle_horiz_lateral": 21,
+      "ankle_vert": 33,
+      "leg_horiz_fwd": 34,
+      "leg_horiz_lateral": 36,
+      "leg_vert": 36,
+      "trunk_horiz_fwd": 33,
+      "trunk_horiz_lateral": 40,
+      "trunk_vert": 21
+    },
+    "stationarities": {
+      "ankle_horiz_fwd": "stationary",
+      "ankle_horiz_lateral": "stationary",
+      "ankle_vert": "stationary",
+      "leg_horiz_fwd": "stationary",
+      "leg_horiz_lateral": "stationary",
+      "leg_vert": "stationary",
+      "trunk_horiz_fwd": "stationary",
+      "trunk_horiz_lateral": "stationary",
+      "trunk_vert": "stationary"
+    },
+    "stddevs": {
+      "ankle_horiz_fwd": 340.2514170868713,
+      "ankle_horiz_lateral": 202.73581808003564,
+      "ankle_vert": 218.2165091813367,
+      "leg_horiz_fwd": 482.37730140187944,
+      "leg_horiz_lateral": 384.22525523876476,
+      "leg_vert": 397.7722836268352,
+      "trunk_horiz_fwd": 157.52913252756008,
+      "trunk_horiz_lateral": 87.30135648105143,
+      "trunk_vert": 98.38242890095515
+    },
+    "trends": {
+      "ankle_horiz_fwd": [],
+      "ankle_horiz_lateral": [],
+      "ankle_vert": [],
+      "leg_horiz_fwd": [],
+      "leg_horiz_lateral": [],
+      "leg_vert": [],
+      "trunk_horiz_fwd": [],
+      "trunk_horiz_lateral": [],
+      "trunk_vert": []
+    }
+  }
+]

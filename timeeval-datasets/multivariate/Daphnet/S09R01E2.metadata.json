@@ -1,0 +1,103 @@
+[
+  {
+    "anomaly_length": {
+      "max": 2370,
+      "median": 1638,
+      "min": 185
+    },
+    "contamination": 0.2069034090909091,
+    "dataset_id": [
+      "Daphnet",
+      "S09R01E2"
+    ],
+    "dimensions": 9,
+    "is_train": false,
+    "length": 35200,
+    "means": {
+      "ankle_horiz_fwd": 248.94480113636362,
+      "ankle_horiz_lateral": 141.85360795454545,
+      "ankle_vert": 1009.6964488636364,
+      "leg_horiz_fwd": -417.64451704545456,
+      "leg_horiz_lateral": 454.75019886363634,
+      "leg_vert": 662.2658806818182,
+      "trunk_horiz_fwd": -69.35866477272727,
+      "trunk_horiz_lateral": 139.93857954545456,
+      "trunk_vert": 990.7465909090909
+    },
+    "num_anomalies": 5,
+    "periods": {
+      "ankle_horiz_fwd": 31,
+      "ankle_horiz_lateral": 53,
+      "ankle_vert": 31,
+      "leg_horiz_fwd": 37,
+      "leg_horiz_lateral": 42,
+      "leg_vert": 31,
+      "trunk_horiz_fwd": 38,
+      "trunk_horiz_lateral": 36,
+      "trunk_vert": 32
+    },
+    "stationarities": {
+      "ankle_horiz_fwd": "stationary",
+      "ankle_horiz_lateral": "stationary",
+      "ankle_vert": "stationary",
+      "leg_horiz_fwd": "stationary",
+      "leg_horiz_lateral": "stationary",
+      "leg_vert": "stationary",
+      "trunk_horiz_fwd": "trend_stationary",
+      "trunk_horiz_lateral": "trend_stationary",
+      "trunk_vert": "stationary"
+    },
+    "stddevs": {
+      "ankle_horiz_fwd": 282.6542557119394,
+      "ankle_horiz_lateral": 146.00798691708783,
+      "ankle_vert": 172.1412813466327,
+      "leg_horiz_fwd": 333.25306588508676,
+      "leg_horiz_lateral": 339.2987412285417,
+      "leg_vert": 361.9293516051985,
+      "trunk_horiz_fwd": 146.84642340272913,
+      "trunk_horiz_lateral": 120.79354149660087,
+      "trunk_vert": 60.824116115651805
+    },
+    "trends": {
+      "ankle_horiz_fwd": [],
+      "ankle_horiz_lateral": [],
+      "ankle_vert": [],
+      "leg_horiz_fwd": [],
+      "leg_horiz_lateral": [],
+      "leg_vert": [],
+      "trunk_horiz_fwd": [
+        {
+          "coef": [
+            -0.011580122559181175
+          ],
+          "confidence_r2": 0.6421196845529666,
+          "tpe": "linear"
+        },
+        {
+          "coef": [
+            -2.9471049090350845e-07
+          ],
+          "confidence_r2": 0.5496317096708923,
+          "tpe": "quadratic"
+        }
+      ],
+      "trunk_horiz_lateral": [
+        {
+          "coef": [
+            0.009667858632863598
+          ],
+          "confidence_r2": 0.6614386562508647,
+          "tpe": "linear"
+        },
+        {
+          "coef": [
+            2.4928253404754973e-07
+          ],
+          "confidence_r2": 0.581170562257546,
+          "tpe": "quadratic"
+        }
+      ],
+      "trunk_vert": []
+    }
+  }
+]

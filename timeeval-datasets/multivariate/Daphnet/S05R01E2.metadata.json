@@ -1,0 +1,73 @@
+[
+  {
+    "anomaly_length": {
+      "max": 948,
+      "median": 644,
+      "min": 48
+    },
+    "contamination": 0.22833806818181818,
+    "dataset_id": [
+      "Daphnet",
+      "S05R01E2"
+    ],
+    "dimensions": 9,
+    "is_train": false,
+    "length": 14080,
+    "means": {
+      "ankle_horiz_fwd": -92.73451704545455,
+      "ankle_horiz_lateral": 246.1296875,
+      "ankle_vert": 1054.6896306818182,
+      "leg_horiz_fwd": 111.90887784090908,
+      "leg_horiz_lateral": 60.541619318181816,
+      "leg_vert": 956.69609375,
+      "trunk_horiz_fwd": -32.99254261363637,
+      "trunk_horiz_lateral": -67.97542613636364,
+      "trunk_vert": 1006.2904119318182
+    },
+    "num_anomalies": 6,
+    "periods": {
+      "ankle_horiz_fwd": 33,
+      "ankle_horiz_lateral": 16,
+      "ankle_vert": 31,
+      "leg_horiz_fwd": 32,
+      "leg_horiz_lateral": 31,
+      "leg_vert": 32,
+      "trunk_horiz_fwd": 9,
+      "trunk_horiz_lateral": 32,
+      "trunk_vert": 31
+    },
+    "stationarities": {
+      "ankle_horiz_fwd": "stationary",
+      "ankle_horiz_lateral": "stationary",
+      "ankle_vert": "stationary",
+      "leg_horiz_fwd": "stationary",
+      "leg_horiz_lateral": "stationary",
+      "leg_vert": "stationary",
+      "trunk_horiz_fwd": "stationary",
+      "trunk_horiz_lateral": "stationary",
+      "trunk_vert": "stationary"
+    },
+    "stddevs": {
+      "ankle_horiz_fwd": 550.6506926862337,
+      "ankle_horiz_lateral": 245.1077104056647,
+      "ankle_vert": 393.4590772055932,
+      "leg_horiz_fwd": 482.0478013898556,
+      "leg_horiz_lateral": 192.97243936911786,
+      "leg_vert": 225.11229207501532,
+      "trunk_horiz_fwd": 145.58903340074755,
+      "trunk_horiz_lateral": 151.6244836894214,
+      "trunk_vert": 141.08499324254086
+    },
+    "trends": {
+      "ankle_horiz_fwd": [],
+      "ankle_horiz_lateral": [],
+      "ankle_vert": [],
+      "leg_horiz_fwd": [],
+      "leg_horiz_lateral": [],
+      "leg_vert": [],
+      "trunk_horiz_fwd": [],
+      "trunk_horiz_lateral": [],
+      "trunk_vert": []
+    }
+  }
+]

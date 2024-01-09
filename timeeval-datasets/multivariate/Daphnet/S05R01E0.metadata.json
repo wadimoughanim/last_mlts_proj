@@ -1,0 +1,81 @@
+[
+  {
+    "anomaly_length": {
+      "max": 367,
+      "median": 231,
+      "min": 159
+    },
+    "contamination": 0.06028225806451613,
+    "dataset_id": [
+      "Daphnet",
+      "S05R01E0"
+    ],
+    "dimensions": 9,
+    "is_train": false,
+    "length": 19840,
+    "means": {
+      "ankle_horiz_fwd": 12.457913306451612,
+      "ankle_horiz_lateral": 214.25226814516128,
+      "ankle_vert": 1042.7915322580645,
+      "leg_horiz_fwd": 215.8376008064516,
+      "leg_horiz_lateral": 64.1070564516129,
+      "leg_vert": 904.099495967742,
+      "trunk_horiz_fwd": -13.325403225806452,
+      "trunk_horiz_lateral": 9.548538306451613,
+      "trunk_vert": 978.2668850806451
+    },
+    "num_anomalies": 5,
+    "periods": {
+      "ankle_horiz_fwd": 33,
+      "ankle_horiz_lateral": 1,
+      "ankle_vert": 32,
+      "leg_horiz_fwd": 32,
+      "leg_horiz_lateral": 32,
+      "leg_vert": 33,
+      "trunk_horiz_fwd": 9,
+      "trunk_horiz_lateral": 32,
+      "trunk_vert": 31
+    },
+    "stationarities": {
+      "ankle_horiz_fwd": "stationary",
+      "ankle_horiz_lateral": "stationary",
+      "ankle_vert": "stationary",
+      "leg_horiz_fwd": "stationary",
+      "leg_horiz_lateral": "stationary",
+      "leg_vert": "stationary",
+      "trunk_horiz_fwd": "stationary",
+      "trunk_horiz_lateral": "trend_stationary",
+      "trunk_vert": "stationary"
+    },
+    "stddevs": {
+      "ankle_horiz_fwd": 510.17731044414484,
+      "ankle_horiz_lateral": 386.96185120488866,
+      "ankle_vert": 338.21660155719826,
+      "leg_horiz_fwd": 446.9683222785593,
+      "leg_horiz_lateral": 173.01175515947727,
+      "leg_vert": 240.6104022552205,
+      "trunk_horiz_fwd": 169.9303028830764,
+      "trunk_horiz_lateral": 242.8690995764791,
+      "trunk_vert": 146.49834160537296
+    },
+    "trends": {
+      "ankle_horiz_fwd": [],
+      "ankle_horiz_lateral": [],
+      "ankle_vert": [],
+      "leg_horiz_fwd": [],
+      "leg_horiz_lateral": [],
+      "leg_vert": [],
+      "trunk_horiz_fwd": [],
+      "trunk_horiz_lateral": [
+        {
+          "coef": [
+            7.916014026157349e-11
+          ],
+          "confidence_r2": 0.5205912489519491,
+          "tpe": "kubic"
+        }
+      ],
+      "trunk_vert": []
+    }
+  }
+]

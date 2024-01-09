@@ -1,0 +1,139 @@
+[
+  {
+    "anomaly_length": {
+      "max": 0,
+      "median": 0,
+      "min": 0
+    },
+    "contamination": 0.0,
+    "dataset_id": [
+      "Daphnet",
+      "S03R03E0"
+    ],
+    "dimensions": 9,
+    "is_train": false,
+    "length": 21120,
+    "means": {
+      "ankle_horiz_fwd": 48.33177083333333,
+      "ankle_horiz_lateral": 200.2311553030303,
+      "ankle_vert": 1069.6807291666667,
+      "leg_horiz_fwd": 0.0,
+      "leg_horiz_lateral": 0.0,
+      "leg_vert": 0.0,
+      "trunk_horiz_fwd": 19.386458333333334,
+      "trunk_horiz_lateral": -173.85776515151514,
+      "trunk_vert": 995.6018465909091
+    },
+    "num_anomalies": 0,
+    "periods": {
+      "ankle_horiz_fwd": 48,
+      "ankle_horiz_lateral": 43,
+      "ankle_vert": 33,
+      "leg_horiz_fwd": 1,
+      "leg_horiz_lateral": 1,
+      "leg_vert": 1,
+      "trunk_horiz_fwd": 20,
+      "trunk_horiz_lateral": 50,
+      "trunk_vert": 38
+    },
+    "stationarities": {
+      "ankle_horiz_fwd": "difference_stationary",
+      "ankle_horiz_lateral": "stationary",
+      "ankle_vert": "stationary",
+      "leg_horiz_fwd": "not_stationary",
+      "leg_horiz_lateral": "not_stationary",
+      "leg_vert": "not_stationary",
+      "trunk_horiz_fwd": "stationary",
+      "trunk_horiz_lateral": "stationary",
+      "trunk_vert": "difference_stationary"
+    },
+    "stddevs": {
+      "ankle_horiz_fwd": 426.1188277649931,
+      "ankle_horiz_lateral": 302.58968524135355,
+      "ankle_vert": 363.58689170711335,
+      "leg_horiz_fwd": 0.0,
+      "leg_horiz_lateral": 0.0,
+      "leg_vert": 0.0,
+      "trunk_horiz_fwd": 169.26449657559272,
+      "trunk_horiz_lateral": 105.44195649738063,
+      "trunk_vert": 150.80940309144364
+    },
+    "trends": {
+      "ankle_horiz_fwd": [],
+      "ankle_horiz_lateral": [],
+      "ankle_vert": [],
+      "leg_horiz_fwd": [
+        {
+          "coef": [
+            0.0
+          ],
+          "confidence_r2": 1.0,
+          "tpe": "linear"
+        },
+        {
+          "coef": [
+            0.0
+          ],
+          "confidence_r2": 1.0,
+          "tpe": "quadratic"
+        },
+        {
+          "coef": [
+            0.0
+          ],
+          "confidence_r2": 1.0,
+          "tpe": "kubic"
+        }
+      ],
+      "leg_horiz_lateral": [
+        {
+          "coef": [
+            0.0
+          ],
+          "confidence_r2": 1.0,
+          "tpe": "linear"
+        },
+        {
+          "coef": [
+            0.0
+          ],
+          "confidence_r2": 1.0,
+          "tpe": "quadratic"
+        },
+        {
+          "coef": [
+            0.0
+          ],
+          "confidence_r2": 1.0,
+          "tpe": "kubic"
+        }
+      ],
+      "leg_vert": [
+        {
+          "coef": [
+            0.0
+          ],
+          "confidence_r2": 1.0,
+          "tpe": "linear"
+        },
+        {
+          "coef": [
+            0.0
+          ],
+          "confidence_r2": 1.0,
+          "tpe": "quadratic"
+        },
+        {
+          "coef": [
+            0.0
+          ],
+          "confidence_r2": 1.0,
+          "tpe": "kubic"
+        }
+      ],
+      "trunk_horiz_fwd": [],
+      "trunk_horiz_lateral": [],
+      "trunk_vert": []
+    }
+  }
+]

@@ -1,0 +1,73 @@
+[
+  {
+    "anomaly_length": {
+      "max": 89,
+      "median": 89,
+      "min": 89
+    },
+    "contamination": 0.0034765625,
+    "dataset_id": [
+      "Daphnet",
+      "S06R01E2"
+    ],
+    "dimensions": 9,
+    "is_train": false,
+    "length": 25600,
+    "means": {
+      "ankle_horiz_fwd": -22.3539453125,
+      "ankle_horiz_lateral": 301.2141796875,
+      "ankle_vert": 957.5497265625,
+      "leg_horiz_fwd": -774.02140625,
+      "leg_horiz_lateral": -189.043984375,
+      "leg_vert": 355.878359375,
+      "trunk_horiz_fwd": 15.6914453125,
+      "trunk_horiz_lateral": -67.244140625,
+      "trunk_vert": 1002.2603515625
+    },
+    "num_anomalies": 1,
+    "periods": {
+      "ankle_horiz_fwd": 2,
+      "ankle_horiz_lateral": 6,
+      "ankle_vert": 10,
+      "leg_horiz_fwd": 45,
+      "leg_horiz_lateral": 48,
+      "leg_vert": 42,
+      "trunk_horiz_fwd": 32,
+      "trunk_horiz_lateral": 45,
+      "trunk_vert": 16
+    },
+    "stationarities": {
+      "ankle_horiz_fwd": "stationary",
+      "ankle_horiz_lateral": "stationary",
+      "ankle_vert": "stationary",
+      "leg_horiz_fwd": "stationary",
+      "leg_horiz_lateral": "stationary",
+      "leg_vert": "stationary",
+      "trunk_horiz_fwd": "stationary",
+      "trunk_horiz_lateral": "stationary",
+      "trunk_vert": "stationary"
+    },
+    "stddevs": {
+      "ankle_horiz_fwd": 915.4905453933955,
+      "ankle_horiz_lateral": 634.0602412183234,
+      "ankle_vert": 632.6948552211846,
+      "leg_horiz_fwd": 857.2089448977299,
+      "leg_horiz_lateral": 696.9920515035442,
+      "leg_vert": 642.8962456627484,
+      "trunk_horiz_fwd": 141.7450138804883,
+      "trunk_horiz_lateral": 65.41397831481288,
+      "trunk_vert": 69.35157188798496
+    },
+    "trends": {
+      "ankle_horiz_fwd": [],
+      "ankle_horiz_lateral": [],
+      "ankle_vert": [],
+      "leg_horiz_fwd": [],
+      "leg_horiz_lateral": [],
+      "leg_vert": [],
+      "trunk_horiz_fwd": [],
+      "trunk_horiz_lateral": [],
+      "trunk_vert": []
+    }
+  }
+]

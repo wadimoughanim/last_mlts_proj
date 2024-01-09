@@ -1,0 +1,119 @@
+[
+  {
+    "anomaly_length": {
+      "max": 274,
+      "median": 35,
+      "min": 1
+    },
+    "contamination": 0.3647279549718574,
+    "dataset_id": [
+      "Occupancy",
+      "room-occupancy-0"
+    ],
+    "dimensions": 5,
+    "is_train": false,
+    "length": 2665,
+    "means": {
+      "CO2": 717.9064701152506,
+      "Humidity": 25.353936799785583,
+      "HumidityRatio": 0.004027010287333548,
+      "Light": 193.2275556151166,
+      "Temperature": 21.433876288751897
+    },
+    "num_anomalies": 14,
+    "periods": {
+      "CO2": 9,
+      "Humidity": 12,
+      "HumidityRatio": 1,
+      "Light": 1,
+      "Temperature": 1
+    },
+    "stationarities": {
+      "CO2": "trend_stationary",
+      "Humidity": "trend_stationary",
+      "HumidityRatio": "trend_stationary",
+      "Light": "trend_stationary",
+      "Temperature": "trend_stationary"
+    },
+    "stddevs": {
+      "CO2": 292.68171839377595,
+      "Humidity": 2.436842325144458,
+      "HumidityRatio": 0.0006105726883437672,
+      "Light": 250.21090577180257,
+      "Temperature": 1.0280241758909994
+    },
+    "trends": {
+      "CO2": [],
+      "Humidity": [],
+      "HumidityRatio": [],
+      "Light": [],
+      "Temperature": []
+    }
+  },
+  {
+    "anomaly_length": {
+      "max": 270,
+      "median": 24,
+      "min": 1
+    },
+    "contamination": 0.2123296082524868,
+    "dataset_id": [
+      "Occupancy",
+      "room-occupancy-0"
+    ],
+    "dimensions": 5,
+    "is_train": true,
+    "length": 8143,
+    "means": {
+      "CO2": 606.5462431945639,
+      "Humidity": 25.731507286421873,
+      "HumidityRatio": 0.003862506678320315,
+      "Light": 119.5193745138974,
+      "Temperature": 20.61908364034549
+    },
+    "num_anomalies": 21,
+    "periods": {
+      "CO2": 28,
+      "Humidity": 5,
+      "HumidityRatio": 1,
+      "Light": 17,
+      "Temperature": 5
+    },
+    "stationarities": {
+      "CO2": "stationary",
+      "Humidity": "trend_stationary",
+      "HumidityRatio": "trend_stationary",
+      "Light": "stationary",
+      "Temperature": "trend_stationary"
+    },
+    "stddevs": {
+      "CO2": 314.32087688106805,
+      "Humidity": 5.531210999582151,
+      "HumidityRatio": 0.0008523312991431677,
+      "Light": 194.7558047986205,
+      "Temperature": 1.0169164411058473
+    },
+    "trends": {
+      "CO2": [],
+      "Humidity": [
+        {
+          "coef": [
+            2.0913194630523622e-07
+          ],
+          "confidence_r2": 0.5586487694755216,
+          "tpe": "quadratic"
+        },
+        {
+          "coef": [
+            2.7796983246995004e-11
+          ],
+          "confidence_r2": 0.5915253529580592,
+          "tpe": "kubic"
+        }
+      ],
+      "HumidityRatio": [],
+      "Light": [],
+      "Temperature": []
+    }
+  }
+]

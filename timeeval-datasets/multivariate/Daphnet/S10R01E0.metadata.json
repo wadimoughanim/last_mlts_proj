@@ -1,0 +1,73 @@
+[
+  {
+    "anomaly_length": {
+      "max": 0,
+      "median": 0,
+      "min": 0
+    },
+    "contamination": 0.0,
+    "dataset_id": [
+      "Daphnet",
+      "S10R01E0"
+    ],
+    "dimensions": 9,
+    "is_train": false,
+    "length": 51200,
+    "means": {
+      "ankle_horiz_fwd": -500.81490234375,
+      "ankle_horiz_lateral": 174.59234375,
+      "ankle_vert": 934.6945703125,
+      "leg_horiz_fwd": 454.347890625,
+      "leg_horiz_lateral": 67.67875,
+      "leg_vert": 724.2767578125,
+      "trunk_horiz_fwd": 111.88423828125,
+      "trunk_horiz_lateral": -45.68158203125,
+      "trunk_vert": 996.16099609375
+    },
+    "num_anomalies": 0,
+    "periods": {
+      "ankle_horiz_fwd": 32,
+      "ankle_horiz_lateral": 36,
+      "ankle_vert": 33,
+      "leg_horiz_fwd": 34,
+      "leg_horiz_lateral": 33,
+      "leg_vert": 33,
+      "trunk_horiz_fwd": 62,
+      "trunk_horiz_lateral": 34,
+      "trunk_vert": 33
+    },
+    "stationarities": {
+      "ankle_horiz_fwd": "stationary",
+      "ankle_horiz_lateral": "stationary",
+      "ankle_vert": "stationary",
+      "leg_horiz_fwd": "stationary",
+      "leg_horiz_lateral": "stationary",
+      "leg_vert": "trend_stationary",
+      "trunk_horiz_fwd": "stationary",
+      "trunk_horiz_lateral": "stationary",
+      "trunk_vert": "stationary"
+    },
+    "stddevs": {
+      "ankle_horiz_fwd": 394.12078955356515,
+      "ankle_horiz_lateral": 192.31306760329795,
+      "ankle_vert": 266.20162973908805,
+      "leg_horiz_fwd": 411.34715569353557,
+      "leg_horiz_lateral": 241.22478833121517,
+      "leg_vert": 283.0639364176783,
+      "trunk_horiz_fwd": 117.03564028993068,
+      "trunk_horiz_lateral": 128.89217446065965,
+      "trunk_vert": 90.05529571566164
+    },
+    "trends": {
+      "ankle_horiz_fwd": [],
+      "ankle_horiz_lateral": [],
+      "ankle_vert": [],
+      "leg_horiz_fwd": [],
+      "leg_horiz_lateral": [],
+      "leg_vert": [],
+      "trunk_horiz_fwd": [],
+      "trunk_horiz_lateral": [],
+      "trunk_vert": []
+    }
+  }
+]
