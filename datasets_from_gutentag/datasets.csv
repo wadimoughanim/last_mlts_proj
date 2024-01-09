@@ -1,0 +1,5 @@
+collection_name,dataset_name,train_path,test_path,dataset_type,datetime_index,split_at,train_type,train_is_normal,input_type,length,dimensions,contamination,num_anomalies,min_anomaly_length,median_anomaly_length,max_anomaly_length,mean,stddev,trend,stationarity,period_size
+test1,sine_with_amplitude,,test1.csv,synthetic,False,,unsupervised,False,univariate,100,1,,,,10,10,10,,,,
+test2,polynomial_with_extremum,,test2.csv,synthetic,False,,unsupervised,False,univariate,100,1,,,,10,10,10,,,,
+test3,random_walk_with_variance,,test3.csv,synthetic,False,,unsupervised,False,univariate,100,1,,,,15,15,15,,,,
+test4,ecg_with_frequency,,test4.cs,synthetic,False,,unsupervised,False,univariate,100,1,,,,20,20,20,,,,
