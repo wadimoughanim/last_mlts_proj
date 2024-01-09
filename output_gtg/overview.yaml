@@ -1,0 +1,51 @@
+generated-timeseries:
+- anomalies:
+  - kinds:
+    - amplitude_factor: 1.5
+      kind: amplitude
+    length: 10
+  base-oscillations:
+  - kind: sine
+  generation-id: 0
+  length: 100
+  name: sine_with_amplitude
+- anomalies:
+  - kinds:
+    - context_window: 5
+      kind: extremum
+      local: true
+      min: true
+    length: 10
+  base-oscillations:
+  - kind: polynomial
+    polynomial:
+    - 1
+    - -2
+    - 1
+  generation-id: 1
+  length: 100
+  name: polynomial_with_extremum
+- anomalies:
+  - kinds:
+    - kind: variance
+      variance: 1.0
+    length: 15
+  base-oscillations:
+  - kind: random-walk
+  generation-id: 2
+  length: 100
+  name: random_walk_with_variance
+- anomalies:
+  - kinds:
+    - frequency_factor: 2.0
+      kind: frequency
+    length: 20
+  base-oscillations:
+  - kind: ecg
+  generation-id: 3
+  length: 100
+  name: ecg_with_frequency
+meta:
+  download_link: https://gitlab.hpi.de/akita/guten-tag
+  git_commit_sha: 64b208e3cc58083efc1ea2d59429990ff6d66b12
+  seed: null
