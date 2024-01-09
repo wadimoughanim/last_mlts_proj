@@ -1,0 +1,13 @@
+Starting evaluation of experiment k-Means-Metro-metro-traffic-volume-cfa90897b46b014c796de1ba98df27f8-1
+=============================================
+
+Performing execution for UNSUPERVISED algorithm k-Means
+Running container 'ghcr.io/timeeval/kmeans:0.3.0' with env='{'LOCAL_UID': '501', 'LOCAL_GID': '501'}' in ExecutionType.EXECUTE mode.
+Restricting container to 1.0 CPUs and 15.000 GB RAM
+Container timeout after <Duration 1 minute> and 'ResourceConstraints.preliminary_results_on_timeout' is set to True. However, the algorithm did not store a preliminary result; raising DockerTimeoutError anyway!
+
+#### Docker container logs ####
+useradd warning: user's uid 501 outside of the UID_MIN 1000 and UID_MAX 60000 range.
+
+###############################
+

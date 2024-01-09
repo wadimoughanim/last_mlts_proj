@@ -1,0 +1,13 @@
+Starting evaluation of experiment COF-Genesis-genesis-anomalies-507aaea1141c95e8718e71d965e42aa9-1
+=============================================
+
+Performing execution for UNSUPERVISED algorithm COF
+Running container 'ghcr.io/timeeval/cof:0.3.0' with env='{'LOCAL_UID': '501', 'LOCAL_GID': '501'}' in ExecutionType.EXECUTE mode.
+Restricting container to 1.0 CPUs and 15.000 GB RAM
+Container timeout after <Duration 1 minute> and 'ResourceConstraints.preliminary_results_on_timeout' is set to True. However, the algorithm did not store a preliminary result; raising DockerTimeoutError anyway!
+
+#### Docker container logs ####
+useradd warning: user's uid 501 outside of the UID_MIN 1000 and UID_MAX 60000 range.
+
+###############################
+

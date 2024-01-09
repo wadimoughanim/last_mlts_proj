@@ -1,0 +1,20 @@
+Starting evaluation of experiment COF-NASA-MSL-F-4-507aaea1141c95e8718e71d965e42aa9-1
+=============================================
+
+Performing execution for UNSUPERVISED algorithm COF
+Running container 'ghcr.io/timeeval/cof:0.3.0' with env='{'LOCAL_UID': '501', 'LOCAL_GID': '501'}' in ExecutionType.EXECUTE mode.
+Restricting container to 1.0 CPUs and 15.000 GB RAM
+
+#### Docker container logs ####
+useradd warning: user's uid 501 outside of the UID_MIN 1000 and UID_MAX 60000 range.
+Config: AlgorithmArgs(customParameters=CustomParameters(n_neighbors=50, random_state=42), dataInput='/data/F-4.test.csv', dataOutput='/results/docker-algorithm-scores.csv', executionType='execute', modelInput='/results/model.pkl', modelOutput='/results/model.pkl')
+
+###############################
+
+Scoring algorithm COF with ROC_AUC,RANGE_ROC_AUC,RANGE_PR_VOLUME metrics
+Calculating ROC_AUC
+  = 0.3103298994203959
+Calculating RANGE_ROC_AUC
+  = 0.5024283336593285
+Calculating RANGE_PR_VOLUME
+  = 0.021312554902049703

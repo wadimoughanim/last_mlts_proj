@@ -1,0 +1,36 @@
+Starting evaluation of experiment COF-GHL-27_Lev_corr_Temp_fault_seed_115_vars_23-507aaea1141c95e8718e71d965e42aa9-1
+=============================================
+
+Performing execution for UNSUPERVISED algorithm COF
+Running container 'ghcr.io/timeeval/cof:0.3.0' with env='{'LOCAL_UID': '501', 'LOCAL_GID': '501'}' in ExecutionType.EXECUTE mode.
+Restricting container to 1.0 CPUs and 15.000 GB RAM
+
+#### Docker container logs ####
+useradd warning: user's uid 501 outside of the UID_MIN 1000 and UID_MAX 60000 range.
+Config: AlgorithmArgs(customParameters=CustomParameters(n_neighbors=50, random_state=42), dataInput='/data/27_Lev_corr_Temp_fault_seed_115_vars_23.test.csv', dataOutput='/results/docker-algorithm-scores.csv', executionType='execute', modelInput='/results/model.pkl', modelOutput='/results/model.pkl')
+Traceback (most recent call last):
+  File "/app/algorithm.py", line 69, in <module>
+    main(config)
+  File "/app/algorithm.py", line 47, in main
+    data, contamination = load_data(config)
+  File "/app/algorithm.py", line 29, in load_data
+    df = pd.read_csv(config.dataInput)
+  File "/usr/local/lib/python3.8/site-packages/pandas/io/parsers.py", line 605, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/usr/local/lib/python3.8/site-packages/pandas/io/parsers.py", line 457, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/usr/local/lib/python3.8/site-packages/pandas/io/parsers.py", line 814, in __init__
+    self._engine = self._make_engine(self.engine)
+  File "/usr/local/lib/python3.8/site-packages/pandas/io/parsers.py", line 1045, in _make_engine
+    return mapping[engine](self.f, **self.options)  # type: ignore[call-arg]
+  File "/usr/local/lib/python3.8/site-packages/pandas/io/parsers.py", line 1862, in __init__
+    self._open_handles(src, kwds)
+  File "/usr/local/lib/python3.8/site-packages/pandas/io/parsers.py", line 1357, in _open_handles
+    self.handles = get_handle(
+  File "/usr/local/lib/python3.8/site-packages/pandas/io/common.py", line 642, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '/data/27_Lev_corr_Temp_fault_seed_115_vars_23.test.csv'
+
+###############################
+
+Docker algorithm failed with status code '1', consider container logs above.

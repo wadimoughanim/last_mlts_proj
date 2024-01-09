@@ -1,0 +1,28 @@
+Starting evaluation of experiment COF-Metro-metro-traffic-volume-507aaea1141c95e8718e71d965e42aa9-1
+=============================================
+
+Performing execution for UNSUPERVISED algorithm COF
+Running container 'ghcr.io/timeeval/cof:0.3.0' with env='{'LOCAL_UID': '501', 'LOCAL_GID': '501'}' in ExecutionType.EXECUTE mode.
+Restricting container to 1.0 CPUs and 15.000 GB RAM
+
+#### Docker container logs ####
+useradd warning: user's uid 501 outside of the UID_MIN 1000 and UID_MAX 60000 range.
+Config: AlgorithmArgs(customParameters=CustomParameters(n_neighbors=50, random_state=42), dataInput='/data/metro-traffic-volume.test.csv', dataOutput='/results/docker-algorithm-scores.csv', executionType='execute', modelInput='/results/model.pkl', modelOutput='/results/model.pkl')
+Traceback (most recent call last):
+  File "/app/algorithm.py", line 69, in <module>
+    main(config)
+  File "/app/algorithm.py", line 53, in main
+    clf.fit(data)
+  File "/usr/local/lib/python3.8/site-packages/pyod/models/cof.py", line 122, in fit
+    self.decision_scores_ = self.decision_function(X)
+  File "/usr/local/lib/python3.8/site-packages/pyod/models/cof.py", line 145, in decision_function
+    return self._cof_fast(X)
+  File "/usr/local/lib/python3.8/site-packages/pyod/models/cof.py", line 193, in _cof_fast
+    dist_matrix = np.array(distance_matrix(X, X))
+  File "/usr/local/lib/python3.8/site-packages/scipy/spatial/kdtree.py", line 910, in distance_matrix
+    result = np.empty((m,n),dtype=float)  # FIXME: figure out the best dtype
+numpy.core._exceptions.MemoryError: Unable to allocate 17.3 GiB for an array with shape (48204, 48204) and data type float64
+
+###############################
+
+Docker algorithm failed with status code '1', consider container logs above.
